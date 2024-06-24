@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en" class="sm:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+    <title>Skin Club</title>
+  </head>
+  <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+    <header class="sticky top-0 z-10 bg-teal-700 text-white">
+      <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
+        <h1 class="text-3xl font-medium">
+          <a href="#skinclub">🔫 Skin Club</a>
+        </h1>
+        <div>
+          <button
+            id="hamburger-button"
+            class="text-3xl md:hidden cursor-pointer relative w-8 h-8"
+          >
+            <!-- &#9776;  -->
+            <div
+              class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"
+            ></div>
+          </button>
+          <nav class="hidden md:block space-x-8 text-xl" aria-label="main">
+            <a href="#Skin" class="hover:opacity-90">Skin Club</a>
+            <a href="#Collection" class="hover:opacity-90">Collections</a>
+            <a href="#Contact" class="hover:opacity-90">Contact us</a>
+          </nav>
+        </div>
+      </section>
+
+      <section
+        id="mobile-menu"
+        class="top-68 justify-center absolute hidden w-full origin-top animate-open-menu flex-col bg-black text-5xl"
+      >
+        <!-- <button class="text-8xl self-end px-6">
+                &times;
+            </button> -->
+        <nav
+          class="flex flex-col min-h-screen items-center py-8"
+          aria-label="mobile"
+        >
+          <a href="#skinclub" class="w-full text-center py-6 hover:opacity-90"
+            >Home</a
+          >
+          <a href="#Skin" class="w-full text-center py-6 hover:opacity-90"
+            >Skin Club</a
+          >
+          <a href="#Collection" class="w-full text-center py-6 hover:opacity-90"
+            >Collections</a
+          >
+          <a href="#Contact" class="w-full text-center py-6 hover:opacity-90"
+            >Contact us</a
+          >
+          <a href="#footer" class="w-full text-center py-6 hover:opacity-90"
+            >Legal</a
+          >
+        </nav>
+      </section>
+    </header>
+    <main class="max-w-4xl mx-auto">
+      <section
+        id="skinclub"
+        class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40 widescreen:section-min-height tallscreen:section-min-height"
+      >
+        <article class="sm:w-1/2">
+          <h2
+            class="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white"
+          >
+            Get all your
+            <span class="text-indigo-700 dark:text-indigo-300">
+              favorite skins
+            </span>
+            at the best prices...
+          </h2>
+          <p
+            class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400"
+          >
+            All transactions are done automatically using the Steam bot.
+          </p>
+          <p
+            class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400"
+          >
+            The majority of CS2 skins ever released are available on our
+            platform!
+          </p>
+        </article>
+        <img
+          src="./img/skinclub logo.png"
+          alt="Skinclublogo"
+          class="w-[400px] rounded-3xl"
+        />
+      </section>
+
+      <hr class="mx-auto bg-black dark:bg-white w-1/2" />
+
+      <section
+        id="Skin"
+        class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+      >
+        <h2
+          class="text-4xl font-bold text-center sm:text-5xl mt-6 text-slate-900 dark:text-white"
+        >
+          Our Case
+          <ul
+            class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8 font-light"
+          >
+            <li
+              class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
+            >
+              <img
+                src="./img/images1.png"
+                alt="awp"
+                class="w-1/2 mb-6 rounded-3xl"
+              />
+              <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                AWP Case
+              </h3>
+              <p
+                class="hidden sm:block mt-2 text-3xl text-center text-slate-500 dark:text-slate-400"
+              >
+                Buy for 39$
+              </p>
+              <p
+                class="sm:hidden text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
+              >
+                39$
+              </p>
+            </li>
+            <li
+              class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
+            >
+              <img
+                src="./img/images2.png"
+                alt="youtube"
+                class="w-1/2 mb-6 rounded-3xl"
+              />
+              <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                Youtube Case
+              </h3>
+              <p
+                class="hidden sm:block mt-2 text-3xl text-center text-slate-500 dark:text-slate-400"
+              >
+                Buy for 89$
+              </p>
+              <p
+                class="sm:hidden text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
+              >
+                89$
+              </p>
+            </li>
+            <li
+              class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
+            >
+              <img
+                src="./img/images3.png"
+                alt="allstar"
+                class="w-1/2 mb-6 rounded-3xl"
+              />
+              <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                All Star Case
+              </h3>
+              <p
+                class="hidden sm:block mt-2 text-3xl text-center text-slate-500 dark:text-slate-400"
+              >
+                Buy for 149$
+              </p>
+              <p
+                class="sm:hidden text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
+              >
+                149$
+              </p>
+            </li>
+          </ul>
+        </h2>
+      </section>
+
+      <hr class="mx-auto bg-black dark:bg-white w-1/2" />
+
+      <section
+        id="Collection"
+        class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+      >
+        <h2
+          class="text-4xl font-bold text-center sm:text-5xl mt-6 text-slate-900 dark:text-white"
+        >
+          Collections
+        </h2>
+        <figure class="my-12">
+          <blockquote
+            class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
+          >
+            <p
+              class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:tranform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:tranform after:-translate-x-2 after:-translate-y-2"
+            >
+              Operation-exclusive Collections are available only to CS2 players
+              who have purchased and activated an Operation Pass. The four
+              exclusive collections introduced as part of Operation Riptide are
+              the 2021 Mirage, 2021 Dust 2, 2021 Vertigo and 2021 Train
+              collections.
+            </p>
+          </blockquote>
+          <figcaption
+            class="italic text-xl sm:text-2xl text-right mt-4 text-slate-500 dark:text-slate-400"
+          >
+            &#8212; Operation Riptide
+          </figcaption>
+        </figure>
+
+        <figure class="my-12">
+          <blockquote
+            class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
+          >
+            <p
+              class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:tranform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:tranform after:-translate-x-2 after:-translate-y-2"
+            >
+              A random skin from these collections could be purchased from the
+              Operation Broken Fang store within the CS:GO game client using 4
+              stars. Skins from these collections ceased to be available from
+              the Operation Broken Fang store on 15 May 2021. The Ancient
+              collection is speculated to re-appear in a souvenir package at the
+              next CS:GO major as the demolition map Ancient was added to the
+              active duty map pool.
+            </p>
+          </blockquote>
+          <figcaption
+            class="italic text-xl sm:text-2xl text-right mt-4 text-slate-500 dark:text-slate-400"
+          >
+            &#8212; Operation Broken Fang
+          </figcaption>
+        </figure>
+
+        <figure class="my-12">
+          <blockquote
+            class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
+          >
+            <p
+              class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:tranform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:tranform after:-translate-x-2 after:-translate-y-2"
+            >
+              Operation Shatterd Web introduced three new CS:GO collections:
+              Canals, Norse and St. Marc. These collections were available for
+              the duration of Operation Shattered Web from 18 November 2019 to
+              31 March 2020.
+            </p>
+          </blockquote>
+          <figcaption
+            class="italic sm:text-2xl text-right mt-4 text-slate-500 dark:text-slate-400"
+          >
+            &#8212; Operation Shattered Web
+          </figcaption>
+        </figure>
+      </section>
+
+      <hr class="mx-auto bg-black dark:bg-white w-1/2" />
+
+      <section
+        id="Contact"
+        class="p-6 my-12 scroll-mt-14 widescreen:section-min-height tallscreen:section-min-height"
+      >
+        <h2
+          class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white"
+        >
+          Contact Us
+        </h2>
+        <form
+          action=""
+          class="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-left gap-4"
+        >
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            required
+            minlength="3"
+            maxlength="60"
+            placeholder="Your subject"
+            class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"
+          />
+          <label for="message">Message: </label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+            class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"
+          ></textarea>
+          <button
+            class="bg-teal-700 hover:bg-teal-500 active:bg-teal-300 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer" class="bg-teal-700 text-white text-xl">
+      <section
+        class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between"
+      >
+        <address>
+          <h2>
+            Additionally, special promo codes for balance top-ups are also
+            regularly shared on Skin.Club's social media platforms.<br />
+            Email: <a href="#">help@skin.club</a><br />
+            Phone: <a href="#">12345678900</a><br />
+          </h2>
+        </address>
+        <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
+          <a href="#Skin" class="hover:opacity-90">Our Case</a>
+          <a href="#Collection" class="hover:opacity-90">Collection</a>
+          <a href="#Contact" class="hover:opacity-90">Contact Us</a>
+        </nav>
+        <div class="flex flex-col sm:gap-2">
+          <p class="text-right">Copyright &copy; <span id="year">2024</span></p>
+          <p class="text-right">All Rights Resversed</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
